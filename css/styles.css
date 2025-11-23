@@ -104,6 +104,25 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+/* Hintergrund der Dropdown-Liste */
+.navbar .dropdown-menu {
+    background-color: rgba(30, 30, 30, 0.7); /* dunkelgrau, 70% transparent */
+    border: none;
+    backdrop-filter: blur(4px); /* optional für Glas-Effekt */
+}
+
+/* Dropdown-Items */
+.navbar .dropdown-item {
+    color: rgba(255, 255, 255, 0.75); /* Weiß 75% */
+}
+
+/* Hover-Effekt */
+.navbar .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* leichtes weiß-transparentes Hover */
+    color: rgba(255, 255, 255, 0.95);
+}
+
+
 hr {
   margin: 1rem 0;
   color: inherit;
