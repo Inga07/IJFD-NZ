@@ -18,36 +18,21 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-
-        <style>
-            .carousel-item img {
-                width: 100%;
-                height: 480px;
-                object-fit: cover;
-                border-radius: 10px;
-            }
-
-            .carousel-caption {
-                background: rgba(0, 0, 0, 0.45);
-                border-radius: 10px;
-                padding: 0.5rem 1rem;
-            }
-        </style>
     </head>
 
 
-    <body id="page-top">
+    <body id="home">
 
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">New Zealand</a>
+                <a class="navbar-brand" href="#home">New Zealand</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
                         <li class="nav-item"><a class="nav-link" href="#general">Infos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#slideshow">New Zealand</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#gallery">New Zealand</a></li>
                         <li class="nav-item"><a class="nav-link" href="#via">VIA e.V.</a></li>
                         <li class="nav-item"><a class="nav-link" href="#donations">Donations</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -65,9 +50,9 @@
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5">From July 2026, I will be doing my voluntary service at an outdoor education camp in New Zealand. I am planning to keep you updated here.</p>
+                        <p class="text-white-75 mb-5">From July 2026, I will be doing my voluntary service in an outdoor education camp in New Zealand. I will keep you updated here.</p>
                         <p class="text-white-75 mb-5">You can also find photos on my instagram!</p>
-                        <a class="btn btn-primary btn-xl" href="#contact">my instagram</a>
+                        <a class="btn btn-primary btn-xl" href="#gallery">my instagram</a>
                     </div>
                 </div>
             </div>
@@ -85,7 +70,7 @@
                         <p class="text-black-75 mb-4">Hi and welcome to my mini blog! I'm Inga, 18 years old, and I'm going to New Zealand as an IJFD volunteer after my finals next summer. I will be working with kids of different ages in an outdoor education camp and learn how to support their development through outdoor activities.</p>
                         <hr class="divider divider-dark" />
                         <p class="text-black-75 mb-4">If you want to support my journey, you can do so below.</p>
-                        <a class="btn btn-primary btn-xl" href="#donations">donate</a>
+                        <a class="btn btn-primary btn-xl" href="#donations">find out more</a>
                     </div>
                 </div>
             </div>
@@ -131,43 +116,76 @@
         </section>
 
 
-        <section class="page-section" id="slideshow">
-            <div class="container px-4 px-lg-5">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+       <!-- Portfolio Grid 2-->
+        <section class="page-section bg-light" id="gallery">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">New Zealand</h2>
+                    <p></p>
+                    <h3 class="section-subheading text-muted">there are various places to see</h3>
+                    <p></p>
+                    <hr class="divider text-black"/>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/portfolio/camp.jpg" alt="..." height="200px"/>
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Outdoor Education Camp</div>
+                                <div class="portfolio-caption-subheading text-muted">my workplace</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/portfolio/accommodation.jpg" alt="..." height="200px"/>
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">accommodation</div>                                
+                                <div class="portfolio-caption-subheading text-muted">living with other volunteers</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/portfolio/nature.jpg" alt="..." height="200px"/>
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">free  time</div>
+                                <div class="portfolio-caption-subheading text-muted">exploring New Zealands landscape and culture</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                <img src="assets/img/nz.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <p class="text-white-75 mb-4">New Zealand</p>
-                </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                <img src="assets/img/nz2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <p class="text-white-75 mb-4">New Zealand</p>
-                </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                <img src="assets/img/nz3.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <p class="text-white-75 mb-4">New Zealand</p>
-                </div>
+
+        <hr class="divider divider-dark" />
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8 text-center"> 
+                <p class="text-black-75 mb-4">Do you want to see more photos of my journey?</p>
+                <a class="btn btn-primary btn-xl" href="https://www.instagram.com/i_d_k_u._.ig?igsh=dnRmZ3R6eHBzZDVz">visit my instagram</a>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-            </div>
+            
         </div>
         </section>
 
